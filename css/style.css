@@ -7,12 +7,55 @@
 
 /* GENERAL */
 
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    font-size: 30px;
+}
 
 
 /* HEADER */
 
+header {
+    background-color:#A6160A;
+    height: 80px;
+}
+
+#logo-italo {
+    width: 15em;
+}
 
 /* MAIN */
-
+main {
+    height: calc(100vh - 80px);
+    background-image: url(../img/meme-oke.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
 
 /* FOOTER */
+
+
+
+/* HOVER */
+
+.first-header-link:hover {
+    background-color: rgba(51, 28, 26, 0.289);
+}
+
+.second-header-link:hover {
+    border-bottom: 3px solid white;
+}
+
+
+
+
+
