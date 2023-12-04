@@ -11,12 +11,11 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 
 STEP
 
-1) Chiedere all'utente il numero di km da percorrere
-2) Chiedere all'utente l'età
+1) Chiedere all'utente l'età
+2) Chiedere all'utente i km da percorrere
 3) Fissare il prezzo del biglietto a 0.21€ al km
 4) 
-    SE età <= 18 allora applica il 20% di sconto
-    INVECE SE età > 65 allora applica il 40% di sconto
+    SE età < 18 allora applica il 20% di sconto
+    ALTRIMENTI SE età > 65 allora applica il 40% di sconto
     ALTRIMENTI tariffa piena
-
 5) Mostra il prezzo
